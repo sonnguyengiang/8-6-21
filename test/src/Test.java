@@ -4,11 +4,14 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Moi ban nhap ky tu: ");
-        String character = sc.nextLine();
-        for (int i = 0; i < 10; i++) {
-            System.out.println(character);
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        int temp = 0, max = 0, min = 0;
+        for (int i = 1;i < number; i++) {
+            if (number % i == 0) {
+                max = i ==
+                }
+            }
         }
     }
 }
